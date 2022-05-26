@@ -22,7 +22,7 @@ public class C06_SoftAssert extends TestBase {
         //1- amazon sayfasina gidin
         driver.get("https://www.amazon.com");
         //2- title'in Amazon icerdigini test edin
-        String expectedTitle= "Amazon";
+        String expectedTitle= "amazon";
         String actualTitle= driver.getTitle();
         softAssert.assertTrue(actualTitle.contains(expectedTitle));
         //3- aram kutusunun erisebilir oldugunu kontrol edin
@@ -34,9 +34,9 @@ public class C06_SoftAssert extends TestBase {
         WebElement sonucYaziElementi= driver.findElement(By.xpath("//div[@class='a-section a-spacing-small a-spacing-top-small']"));
         softAssert.assertTrue(sonucYaziElementi.isDisplayed());
         //6- arama sonucunun Nutella icerdigini test edin
-        softAssert.assertTrue(sonucYaziElementi.getText().contains("Nutella"));
+        softAssert.assertTrue(sonucYaziElementi.getText().contains("Kutella"));
 
-        //sofassert'e bitis satirini soylemek icin assertAll()
+        //sofassert'e bitis satirini soylemek icin assertAll() kullanilir
         softAssert.assertAll();
 
     }
