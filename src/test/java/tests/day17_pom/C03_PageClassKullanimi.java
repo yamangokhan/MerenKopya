@@ -22,5 +22,7 @@ public class C03_PageClassKullanimi {
         facebookPage.loginTusu.click();
         // giris yapilamadigini test edin
         Assert.assertTrue(facebookPage.girilemediYaziElementi.isDisplayed());
+
+        Driver.closeDriver();
     }
 }
