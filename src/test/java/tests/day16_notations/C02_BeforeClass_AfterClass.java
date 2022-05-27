@@ -1,4 +1,4 @@
-package day16_notations;
+package tests.day16_notations;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

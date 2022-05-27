@@ -1,4 +1,4 @@
-package day16_notations;
+package tests.day16_notations;
 
 import org.testng.annotations.Test;
 import utilities.TestBase;
