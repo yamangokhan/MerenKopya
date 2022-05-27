@@ -38,7 +38,7 @@ public class C04_DependOnMethods {
         driver.get("https://www.amazon.com");
     }
 
-    @Test (dependsOnMethods = "test01")
+    @Test (dependsOnMethods = "test01", priority= 0)
     public void test02() {
         WebElement aramaKutusu= driver.findElement(By.id("twotabsearchtextbox"));
         aramaKutusu.sendKeys("Nutella"+ Keys.ENTER);
