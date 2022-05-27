@@ -10,7 +10,7 @@ public class C02_PageClassKullanimi {
 
     @Test
     public void test01() {
-        AmazonPage amazonPage= new AmazonPage();
+        AmazonPage amazonPage= new AmazonPage();//AmazonPage class'indaki parametresiz cons. calisir
         //amazon'a gidelim
         Driver.getDriver().get("https://www.amazon.com");
         //nutella aratalim
