@@ -12,5 +12,7 @@ public class C01_ConfigReader {
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         Driver.getDriver().get(ConfigReader.getProperty("facebookUrl"));
 
+        Driver.closeDriver();
+
     }
 }
