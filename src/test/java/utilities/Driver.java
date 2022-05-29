@@ -42,6 +42,10 @@ public class Driver {
                     WebDriverManager.edgedriver().setup();
                     driver=new EdgeDriver():
                     break;
+                case "opera":
+                    WebDriverManager.operadriver().setup();
+                    driver=new OperaDriver();
+                    break;
                 default:
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
