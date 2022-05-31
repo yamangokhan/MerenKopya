@@ -40,7 +40,7 @@ public class Driver {
                     break;
                 case "egde":
                     WebDriverManager.edgedriver().setup();
-                    driver=new EdgeDriver():
+                    driver=new EdgeDriver();
                     break;
                 case "opera":
                     WebDriverManager.operadriver().setup();
