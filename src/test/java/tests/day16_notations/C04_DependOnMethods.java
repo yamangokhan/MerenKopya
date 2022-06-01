@@ -51,4 +51,8 @@ public class C04_DependOnMethods {
         Assert.assertTrue(sonucYaziElementi.getText().contains("Nutella"));
 
     }
+    @Test(groups = {"grup1", "grup2"})
+    public void test04(){
+        System.out.println("bak bu calisti");
+    }
 }

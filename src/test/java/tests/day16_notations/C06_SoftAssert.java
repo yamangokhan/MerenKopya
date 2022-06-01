@@ -9,7 +9,8 @@ import org.testng.asserts.SoftAssert;
 import utilities.TestBase;
 
 public class C06_SoftAssert extends TestBase {
-    @Test
+
+    @Test(groups = "grup2")
     public void test01() {
         /*
         Softassertion baslangic ve bitis satirlari arasindaki

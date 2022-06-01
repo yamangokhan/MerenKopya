@@ -5,7 +5,7 @@ import utilities.Driver;
 
 public class C01_YeniDriverIlkClass {
 
-    @Test
+    @Test(groups = "grup1")
     public void test01() {
 
         Driver.getDriver().get("https://www.amazon.com");

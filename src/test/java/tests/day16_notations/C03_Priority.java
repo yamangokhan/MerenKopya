@@ -25,7 +25,7 @@ public class C03_Priority extends TestBase {
         driver.get("https://www.bestbuy.com");
         System.out.println(driver.getCurrentUrl());
     }
-    @Test
+    @Test(groups = "grup1")
     public void techproedTest() {
         driver.get("https://techproeducation.com/");
         System.out.println(driver.getCurrentUrl());
