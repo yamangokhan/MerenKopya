@@ -2,8 +2,11 @@
 <!-- Bir xml dosyasi ile projemizden istedigimiz testleri, package'leri
     class'lari veya test method'larini calistirabiliriz
     Bunun icin yapmamiz gereken; suite'den baslayip
-    test hiyerarsisine uygun olarak calisacak tum testleri testxml
-    formatinda yazmamizdir-->
+    test hiyerarsisine uygun olarak calisacak tum testleri test
+    xml formatinda yazmamizdir
+    Eger istedigimiz tum tetlere ulasmak icin birden fazla hiyerarsi
+    olusrurmamiz gerekirse sonraki hiyerarsileri, uygun adimda baslatmamiz gerekir
+    -->
 <suite name="isterseniz class'lari calistirma">
     <test name="classlar">
         <classes>

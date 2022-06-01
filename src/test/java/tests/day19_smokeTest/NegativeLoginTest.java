@@ -8,14 +8,16 @@ import utilities.Driver;
 
 public class NegativeLoginTest {
 
-    BrcPage brcPage =new BrcPage();
+    BrcPage brcPage;
 
     @Test
-    public void yanlisSifre() {
+    public void yanlisSifre() throws InterruptedException {
+        brcPage =new BrcPage();
         // Bir test method olustur positiveLoginTest()
         //https://www.bluerentalcars.com/ adresine git
         Driver.getDriver().get(ConfigReader.getProperty("brcUrl"));
         //login butonuna bas
+        Thread.sleep(2000);
         brcPage.ilkLoginButonu.click();
         //test data user email: customer@bluerentalcars.com
         brcPage.emailTextBox.sendKeys(ConfigReader.getProperty("brcValidEmail"));
