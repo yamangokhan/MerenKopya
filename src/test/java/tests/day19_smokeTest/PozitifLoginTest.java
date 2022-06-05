@@ -8,11 +8,11 @@ import utilities.Driver;
 
 public class PozitifLoginTest {
 
-    BrcPage brcPage= new BrcPage();
+    BrcPage brcPage;
 
     @Test
     public void test01() {
-
+        brcPage= new BrcPage();
         // Bir test method olustur positiveLoginTest()
         //https://www.bluerentalcars.com/ adresine git
         Driver.getDriver().get(ConfigReader.getProperty("brcUrl"));
