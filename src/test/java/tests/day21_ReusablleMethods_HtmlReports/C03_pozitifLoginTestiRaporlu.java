@@ -24,10 +24,10 @@ public class C03_pozitifLoginTestiRaporlu extends TestBaseRapor {
         extentTest.info("Login butonuna tiklandi");
         //test data user email: customer@bluerentalcars.com
         brcPage.emailTextBox.sendKeys(ConfigReader.getProperty("brcValidEmail"));
-        extentTest.info("Gecerli email yapildi");
+        extentTest.info("Gecerli email yazildi");
         //test data password : 12345
         brcPage.passwordTextBox.sendKeys(ConfigReader.getProperty("brcValidPassword"));
-        extentTest.info("Gecerli passwor yapildi");
+        extentTest.info("Gecerli passwor yazildi");
         //login butonuna tiklayin
         brcPage.ikinciLoginButonu.click();
         extentTest.info("Login butonuna basildi");
