@@ -36,7 +36,7 @@ public class C03_pozitifLoginTestiRaporlu extends TestBaseRapor {
         String actualUsername=brcPage.kullaniciProfilIsmi.getText();
         String expectedUsername= ConfigReader.getProperty("brcValidUsername");
         Assert.assertEquals(expectedUsername,actualUsername);
-        extentTest.info("kullanici basarili sekilde giris yapti");
+        extentTest.pass("kullanici basarili sekilde giris yapti");
 
         Driver.closeDriver();
 
