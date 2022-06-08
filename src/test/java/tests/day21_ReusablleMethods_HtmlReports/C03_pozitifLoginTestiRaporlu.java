@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 import pages.BrcPage;
 import utilities.ConfigReader;
 import utilities.Driver;
-import utilities.TestBase;
 import utilities.TestBaseRapor;
 
 public class C03_pozitifLoginTestiRaporlu extends TestBaseRapor {
