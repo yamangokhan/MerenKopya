@@ -8,7 +8,7 @@ import org.testng.annotations.Parameters;
 
 import java.time.Duration;
 
-public class TastBaseCross {
+public class TestBaseCross {
 
     protected WebDriver driver;
 
@@ -23,7 +23,7 @@ public class TastBaseCross {
 
     @AfterMethod
     public void tearDown() {
-        driver.quit();
+        CrossDriver.closeDriver();
     }
 
 }
