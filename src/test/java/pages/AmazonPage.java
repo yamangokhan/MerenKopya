@@ -7,7 +7,7 @@ import utilities.Driver;
 
 public class AmazonPage {
 
-    public AmazonPage(){//parametresiz constructor
+    AmazonPage(){//parametresiz constructor
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
